@@ -1,22 +1,6 @@
-/*
-    CREDIST !!!
-        Hallo, here are the names who have been registered in creating/helping in the development of this script
-
-        *BIG TAHNKS TO*
-
-        > Hw Mods [ Base ]
-        > Rerez Hosting [ Developer ]
-        > HyuuXyz [My Team]
-        > KyuuRzy [ My Team ]
-        > CeliaOffc [ My Team]
-        > DiiOffc [ My Team ]
-        > Wangsaff [ Recode ]
-
-
-*/
-
 const fs = require('fs')
 const chalk = require('chalk')
+const { indonesia } = require("./lib/language")
 //=================================================//
 // System
 global.baileys = require('@whiskeysockets/baileys')
@@ -43,12 +27,22 @@ global.wm = "Wɑng𝚂ɑẜẜ『 ᴹᴅ 』"
 global.onlypc = false
 global.onlygc = false
 //=================================================//
-//cpanel
-global.domain = "https://punzz.my-website.my.id"
-global.apikey = "ptla_PhqlA6zjVZZDYEtJe70HxJOpeA8ZIA93mleD15etrb0"
-global.capikey = "ptlc_itlB3tJyHbl"
-global.egg = "15"
-global.loc = "1"
+//telegram
+global.APIs = {
+   alfa: 'https://api.zeeoneofc.my.id', 
+}
+global.APIKeys = {
+   'https://api.zeeoneofc.my.id': 'Your Apikey', 
+}
+global.language = indonesia
+global.BOT_TOKEN = "Your Bot Token"
+global.BOT_NAME = "NXLBotz"
+global.OWNER_NAME = "Wɑng𝚂ɑẜẜ『 ᴹᴅ 』"
+global.OWNER_NUMBER = "6283145372436"
+global.OWNER = ["https://t.me/WangsaffMD", "https://t.me/WangsaffMD"]
+global.THUMBNAIL = "./media/asep.jpg"
+global.DONASI = "./media/asep.jpg"
+global.lang = language
 
 //Send Pay
 global.dana = "083101155208"

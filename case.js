@@ -1234,6 +1234,7 @@ ${tengah}
 ${garis} ${prefix}nxl
 ${garis} ${prefix}nxlchat
 ${garis} ${prefix}luminai
+${garis} ${prefix}ocr
 ${tengah}
 ${garis} 乂 Domain Menu 乂
 ${tengah}
@@ -3707,7 +3708,7 @@ footer: proto.Message.InteractiveMessage.Footer.create({
 text: "Simpel WhatsApp Bot"
 }),
 header: proto.Message.InteractiveMessage.Header.create({
-title: (`click button *enable* to enable autobio\nclick button *disable* to disable autobio`),
+title: (`click button *enable* to enable autochat\nclick button *disable* to disable autobio`),
 subtitle: `${ownername}`,
 hasMediaAttachment: false
 }),
